@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv = "Content-Type" content = "text/html; charset=ISO-8859-1">
+		<title>WordCloud Engine</title>
+		<script type="text/javascript" src="../js/wordcloud.js"></script>
+	</head>
+	<body>
+		<div id ="setup">
+			<h1>WordCloud Engine</h1>
+			<a href="../html/wordCloudTarget.html" target="target">Istruzioni</a><br>
+			<p>Seleziona la pagina da analizzare:</p>
+			<ul>
+			<li>
+				<a href="../tests/LinuxWikipedia.html" target="target">Linux - Wikipedia</a>
+			<li>
+				<a href="../tests/CostituzioneItaliana.html" target="target">Costituzione Italiana - Presidenza della Repubblica</a>
+			<li>
+				<a href="../tests/MachiavelliIlPrincipe.html" target="target">Machiavelli - Il Principe - Liber Liber</a>
+			</ul>
+			<button onClick="pageCheck(parent.target.document, document);">Analizza pagina</button>
+		</div>
+		<h2>Statistiche</h2>
+		<div id = "stats"></div>
+		<h2>Nuvola</h2>
+		<div id = "cloud"></div>
+	</body>
+</html>

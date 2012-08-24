@@ -1,0 +1,335 @@
+.h-menu-sx{
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 82%;
+	WIDTH: 90%;
+	COLOR: #000000;
+	LINE-HEIGHT: 1.5em;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	/*LIST-STYLE-TYPE: none;*/
+	TEXT-ALIGN: left;
+	padding-left:0;
+	margin-top: 2em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;	
+}
+.h-menu-sx A {
+	DISPLAY: block;
+	PADDING-LEFT: 4em;
+	PADDING-BOTTOM: 2em;
+	VERTICAL-ALIGN: 15%;
+	COLOR: #000000;
+	PADDING-TOP: 0.5em;
+	HEIGHT: 100%;
+	TEXT-ALIGN: left;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	
+}
+.h-menu-sx A:hover {
+	 COLOR: #990000; TEXT-DECORATION: none
+}
+.h-menu-sx LI.voceattiva {
+	COLOR: #ffffff; BACKGROUND-COLOR: #cccccc; TEXT-DECORATION: none
+}
+
+
+.menu-sx{
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 82%;
+	WIDTH: 100%;
+	COLOR: #000000;
+	/*LINE-HEIGHT: 1.5em;*/
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	/*LIST-STYLE-TYPE: none;*/
+	TEXT-ALIGN: left;
+	margin: 0em;
+	padding-left:0;
+	
+}
+.menu-sx A {
+	 DISPLAY: block; PADDING-LEFT: 4em; /*PADDING-BOTTOM: 2em;*/ VERTICAL-ALIGN: 15%; COLOR: #000000; PADDING-TOP: 1em; HEIGHT: 100%; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.menu-sx A:hover {
+	 COLOR: #990000; TEXT-DECORATION: none
+}
+.menu-sx LI.voceattiva {
+	COLOR: #ffffff; BACKGROUND-COLOR: #cccccc; TEXT-DECORATION: none
+}
+
+.menu-succ{
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 90%;
+	WIDTH: 95%;
+	COLOR: #000000;
+	LINE-HEIGHT: 1.5em;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	/*LIST-STYLE-TYPE: none;*/
+	TEXT-ALIGN: left;
+	margin: 0em;
+	padding-left:0em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;	
+}
+.menu-succ A {
+	 DISPLAY: block; VERTICAL-ALIGN: 15%; COLOR: #000000;  HEIGHT: 100%; TEXT-ALIGN: left; TEXT-DECORATION: none;
+	 padding-left:0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;	
+}
+.menu-succ A:hover {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+	background-color: #990000;
+}
+.menu-succ LI.voceattiva {
+	COLOR: #ffffff; BACKGROUND-COLOR: #cccccc; TEXT-DECORATION: none
+}
+.menu-succ LI.voceattiva {
+	COLOR: #ffffff; BACKGROUND-COLOR: #cccccc; TEXT-DECORATION: none
+}
+#menu-primo {
+	PADDING-RIGHT: 0.3em;
+	MARGIN-TOP: 117px;
+	FLOAT: right;
+	WIDTH: 60%;
+	HEIGHT: auto; /*BACKGROUND-COLOR: #9a0235;*/
+	TEXT-ALIGN: right
+}
+.menu-primo {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; MARGIN: 0px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none; TEXT-ALIGN: right
+}
+.menu-primo A {
+	COLOR: #ffffff;
+	LIST-STYLE-TYPE: none; /*BACKGROUND-COLOR: #9a0235;*/
+	TEXT-DECORATION: none;
+	background-color: #9A0233;
+}
+.menu-primo LI {
+	PADDING-RIGHT: 0.5em; DISPLAY: inline; PADDING-LEFT: 1em; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 0px; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none; HEIGHT: 0px
+}
+.menu-primo LI.home {
+	BORDER-LEFT-STYLE: none;
+
+}
+.menu-primo LI.primavoce {
+	BORDER-LEFT-STYLE: none;
+	background-image: url(/qrnw/immagini/icone/ic_mondo.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-left: 2em;
+	padding-left: 2em;
+}
+.menu-primo LI.rss {
+	BORDER-LEFT-STYLE: none;
+	background-image: url(/qrnw/immagini/icone/feed.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-left: 2em;
+	padding-left: 2em;
+}
+.menu-primo A:hover {
+	COLOR: #9a0235; BACKGROUND-COLOR: #ffffff
+}
+.bloccosottomenu {
+	MARGIN-TOP: 0.4em;  MARGIN-LEFT: 0.3em; WIDTH: 97%
+}
+
+.sottomenu-sx {
+	DISPLAY: block;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 75%;
+	WIDTH: 100%;
+	COLOR: #000000;
+	LINE-HEIGHT: 1.7em;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	LIST-STYLE-TYPE: none;
+	LETTER-SPACING: 0.2em;
+	TEXT-ALIGN: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.sottomenu-sx A {
+	BORDER-TOP-WIDTH: 0px;
+	DISPLAY: block;
+	PADDING-LEFT: 15%;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	COLOR: #000000; 
+	HEIGHT: 100%;
+	BORDER-RIGHT-WIDTH: 0px;
+	TEXT-DECORATION: none
+}
+.sottomenu-sx A:hover {
+	DISPLAY: block; COLOR: #ffffff; BACKGROUND-COLOR: #666666; TEXT-DECORATION: none
+}
+.primavoce_presidente {
+	BORDER-TOP: #666666 1px solid
+}
+.primavoce_sezioni {
+	MARGIN-TOP: 1em
+}
+
+/*.primavoce_sezioni.voceattiva {
+	DISPLAY: block; COLOR: #ff0000; TEXT-DECORATION: none; MARGIN-TOP: 1em
+	
+}*/
+.sottomenu-sx A.voceattiva {
+	DISPLAY: block; COLOR: #ff0000; TEXT-DECORATION: none
+}
+
+.sceltaveloce {
+	position:absolute;
+	left:-9999px
+}
+.scelteprincipali {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 0.8em; PADDING-BOTTOM: 0px; MARGIN: 1.3em 0px 0px; WIDTH: 100%; COLOR: #000000; LINE-HEIGHT: 1.7em; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none; BACKGROUND-COLOR: #f8f5ee; TEXT-ALIGN: left
+}
+
+
+.h3pres {
+	MARGIN-TOP: 1em;
+	DISPLAY: block;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 0.8em;
+	COLOR: #000000;
+	LINE-HEIGHT: 1.7em;
+	MARGIN-RIGHT: 0px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-image: url(/qrnw/immagini/icone-menu/men-presidente.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 4em;
+}
+.h3pres A {
+	DISPLAY: block; COLOR: #000000; TEXT-DECORATION: none
+}
+.h3pres A:visited {
+	DISPLAY: block; COLOR: #000000; TEXT-DECORATION: none
+}
+.h3pres A:hover {
+	BORDER-LEFT-COLOR: #fff; BORDER-BOTTOM-COLOR: #ffffff; COLOR: #ffffff; BORDER-TOP-COLOR: #fff; BACKGROUND-COLOR: #990033; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #333333
+}
+
+
+.recondidi {
+	/*display: none;*/
+	position:absolute;
+	left:-9999px
+	/*visibility:hidden*/
+}
+
+.men-pres {
+	BACKGROUND-POSITION: left 50%;
+	BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-presidente.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	/*list-style-position: inset;
+	list-style: url(../immagini/icone/buco.jpg);*/
+}
+
+.men-pres A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-presidente2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-att {
+	BACKGROUND-POSITION: left 50%;
+	BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-attivita.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;	
+}
+.men-att A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-attivita2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-expres {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-expres.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-expres A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-expres2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-storico {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/archivio1.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-storico A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/archivio2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-biblioteca {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-storico.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-biblioteca A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-storico2.gif); BACKGROUND-REPEAT: no-repeat
+}
+
+.men-simboli {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-simboli.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-simboli A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-simboli2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-uffici {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-uffici.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-uffici A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-uffici2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-onorif {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-onorif.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-onorif A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-onorif2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-arte {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-moneta.gif); BACKGROUND-REPEAT: no-repeat
+}
+.men-arte A:hover {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(/qrnw/immagini/icone-menu/men-moneta2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.left{
+	
+	text-align:left;
+}
+.center{
+	
+	text-align:center;
+}
+.right{
+	
+	text-align:right;
+}
+.lista-imm {
+	padding-left:0;
+	margin:0;
+	list-style-type: none;
+}
+.lista-foto {
+	padding-left:0;
+	margin:0;
+	list-style-type: none;
+	display:inline;
+}
+.lista-home {
+	padding-left:0.5em;
+	list-style-type: none;
+	margin:0;
+}
+.lista-home li {
+	margin-bottom:0.5em;
+}
+.lista-eventi  {
+	margin-bottom:2em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}

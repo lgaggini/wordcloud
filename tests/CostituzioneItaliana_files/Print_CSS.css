@@ -1,0 +1,331 @@
+.body
+{
+	width:100%;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 4mm;
+	background-color: #FFFFFF;
+}
+
+sup{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3mm;
+	color: #00F;
+		}
+
+#principale
+{
+	width:99%;
+	
+}
+
+#centrale
+{
+	width:100%;
+	float: left;
+	margin-top: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-image: none;
+	background-color: #FFFFFF;	
+	}
+
+.h-etichetta{display:none;}
+
+#menu-primo{display:none;}
+#menu-sx{display:none;}
+#col-dx-contenuto{display:none;}
+#col-destra{display:none;}
+#box-percorso{display:none;}
+#div-desc-noprint{display:none;}
+#col-destra-foto{display:none;}
+#col-sinistra-foto{border:none}
+.fotohome{display:none;}
+.menu-primo{display:none;}
+.foto-eventi{display:none;}
+.foto-francobollo{display:none;}
+.dinamico-altri{display:none;}
+.etichetta-dx{display:none;}
+.txt-dx-noprint{display:none;}
+#divfotogr{border:none}
+
+
+#cappello{
+	height: 1mm;
+	background-image: none;	
+}
+#cappello h1{
+	display:none
+}
+#sottocappello{
+	height: 1mm;
+	background-image: none;	
+}
+	
+
+#col-sinistra-discorso
+{
+	float: right;
+	width:100%;	
+	border-bottom:4mm;    
+}
+#col-sinistra
+{
+	float: right;
+	width:100%;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 4mm;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #FFFFFF;
+}
+
+#contenuto
+{
+	float: right;
+	width:95%;
+	
+	border: 0px none #FFFFFF;
+	
+}
+
+
+#col-sx-contenuto
+{
+	float: left;
+	width:90%;
+	border: 0px none #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+
+
+.didascalia {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 3mm;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+a.didascalia {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.txt-descrizione {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	padding-bottom: 4mm;
+
+}
+
+
+
+
+.tab_azzurrina {
+	COLOR: #000000;
+	font-style: normal;
+	line-height: normal;
+	background-color: #E2ECF5;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.txt-rosso
+ {
+	COLOR: #990000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 0.8em;
+	
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	width: auto;
+	margin-top: 5mm;
+	
+ }
+A.txt-rosso
+ { 
+  
+  TEXT-DECORATION: none;
+  
+  font-style: normal; line-height: normal;
+  background-color: #990033;
+  font-weight: normal;
+  
+ }
+ .txt-arial8 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13pt;
+	line-height: 18pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+	
+}
+ .txt-correlati {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13pt;
+	line-height: 18pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	
+	
+}
+#div-abstract {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+
+.ATTI-rigatitolo
+{
+	BACKGROUND-COLOR: #d6dde4;
+	TEXT-ALIGN: left;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 4mm;
+	padding-left: 5mm;
+	margin-top: 5mm;
+	width: 80%;
+}
+.ATTI-riga-argomento
+{
+	TEXT-ALIGN: left;
+	width: 80%;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4mm;
+	padding-left: 5mm;
+	margin-top: 5mm;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.ATTI-descrizione
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 4mm;
+	color: #000000;
+	width: 80%;
+	margin-left: 1em;
+	float: left;
+	background-color: #FFFFFF;
+	padding-top: 5mm;
+}
+.ATTI-data-dpr
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 4mm;
+	color: #000000;
+	width: 80%;
+	margin-left: 1em;
+	float: left;
+	background-color: #FFFFFF;
+	margin-top:5mm;
+	font-weight: bold;
+}
+
+.ATTI-numero
+{
+	BACKGROUND-COLOR: #d6dde4;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 5mm;
+	FONT-WEIGHT: bolder;
+	TEXT-ALIGN: right;
+	float: left;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	width: 10%;
+	white-space: normal;
+	margin-top: 5mm;
+	margin-left: 5mm;
+}
+.ATTI-numero-argomento
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 5mm;
+	FONT-WEIGHT: normal;
+	TEXT-ALIGN: right;
+	border: 0px solid #CCCCCC;
+	width: 10%;
+	float: left;
+	margin-left: 5mm;
+	margin-top: 5mm;
+}
+.titoloArial
+{
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 5mm;
+    FONT-WEIGHT: bold;
+    MARGIN-TOP: 0px;
+	 color: #000000;
+	 padding-right: 5mm;
+	 
+}
+.didascalia_pdf {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 6mm;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+ .txt-arial8_pdf {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22pt;
+	line-height: 29pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}
+#div-abstract_pdf {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+.titoloArial_pdf
+{
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8mm;
+    FONT-WEIGHT: bold;
+    MARGIN-TOP: 0px;
+	 color: #000000;
+	 padding-right: 5mm;
+	 
+}
+
